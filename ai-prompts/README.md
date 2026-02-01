@@ -10,10 +10,10 @@
 
 | ファイル名 | 役割 |
 | :--- | :--- |
-| `00_master_thesis_usage_guidelines.md` | 安全かつ倫理的に利用するための運用ガイドライン。 |
-| `01_master_thesis_base_system_prompt.md` | **必須**: セッション開始時に最初に入力する基本原則プロンプト。 |
-| `02_master_thesis_analysis_templates.md` | 内容の検討（論理検証、補足案、参考文献）に使用するテンプレート集。 |
-| `03_master_thesis_latex_conversion.md` | 数式画像や箇条書きをLaTeX形式へ変換するためのテンプレート。 |
+| [00_master_thesis_usage_guidelines.md](00_master_thesis_usage_guidelines.md) | 安全かつ倫理的に利用するための運用ガイドライン。 |
+| [01_master_thesis_base_system_prompt.md](01_master_thesis_base_system_prompt.md) | **必須**: セッション開始時に最初に入力する基本原則プロンプト。 |
+| [02_master_thesis_analysis_templates.md](02_master_thesis_analysis_templates.md) | 内容の検討（論理検証、補足案、参考文献）に使用するテンプレート集。 |
+| [03_master_thesis_latex_conversion.md](03_master_thesis_latex_conversion.md) | 数式画像や箇条書きをLaTeX形式へ変換するためのテンプレート。 |
 
 ## 基本的な使い方
 1. **ガイドラインの確認**: 作業を始める前に、必ず `00_...` を読み、AIとの適切な距離感を確認してください。
