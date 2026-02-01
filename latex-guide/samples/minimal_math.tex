@@ -1,0 +1,54 @@
+% !TEX encoding = UTF-8
+% !TEX program = lualatex
+\documentclass[12pt,b5paper]{ltjsarticle}
+
+% 数学系パッケージ
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% 定理環境の設定
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{補題}
+
+\title{修士論文用 LaTeX 最小サンプル}
+\author{立命館 太郎}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{はじめに}
+本ファイルは LuaLaTeX でコンパイルすることを想定した最小構成のサンプルです。
+数式や図の参照方法の確認に使用してください。
+
+\section{数式の例}
+インライン数式は $E=mc^2$ のように記述します。
+番号付きの別行立て数式は \texttt{align} 環境を使用します。
+
+\begin{align}
+    \int_{0}^{\infty} e^{-x^2} dx &= \frac{\sqrt{\pi}}{2} \label{eq:gauss} \\
+    \sum_{n=1}^{\infty} \frac{1}{n^s} &= \zeta(s)
+\end{align}
+
+式\eqref{eq:gauss}はガウス積分として知られています。
+
+\section{図の例}
+図を挿入する場合は以下のように記述します（実際にコンパイルするには画像ファイルが必要です）。
+
+\begin{figure}[htbp]
+    \centering
+    % \includegraphics[width=0.5\textwidth]{example-image.pdf}
+    \caption{図のサンプル（コメントアウトを外して使用）}
+    \label{fig:sample}
+\end{figure}
+
+図\ref{fig:sample}は、図の配置例を示しています。
+
+\begin{theorem}[ピタゴラスの定理]
+直角三角形の斜辺の長さを $c$ とし、他の2辺の長さを $a, b$ とすると、
+$a^2 + b^2 = c^2$ が成り立つ。
+\end{theorem}
+
+\end{document}
