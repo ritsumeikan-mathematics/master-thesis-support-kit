@@ -73,7 +73,7 @@ Beamer 自体は初めてでも構いませんが、コンパイルやパッケ�
 
 ### 3.1 最小限の Beamer ソース例
 
-研究発表用のシンプルな例として、`latex-guide/samples/beamer-thesis-presentation.tex` に最小テンプレートを用意しています（詳細は同ファイルを参照してください）。
+研究発表用のシンプルな例として、[beamer-thesis-presentation.tex](./samples/beamer-thesis-presentation.tex) に最小テンプレートを用意しています（詳細は同ファイルを参照してください）。
 
 ここでは、次のような方針で設定します。
 
@@ -98,7 +98,7 @@ Beamer 自体は初めてでも構いませんが、コンパイルやパッケ�
 - `latexmk` を用いる場合：`latexmk -lualatex beamer-thesis-presentation.tex`
 - VS Code + LaTeX Workshop 等の統合環境を用いる場合：プロジェクトを開き、ビルドコマンドを実行
 
-詳細な環境構築・エンジン選択については、`latex-guide/README.md` や外部の TeX Wiki 等を参照してください。
+詳細な環境構築・エンジン選択については、[latex-guide/README.md](./README.md) や外部の TeX Wiki 等を参照してください。
 
 ---
 
