@@ -1,0 +1,194 @@
+% !TEX program = lualatex
+\documentclass[11pt,professionalfonts]{beamer}
+
+% テーマ・色など（シンプルで無難なものを選択）
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% 日本語フォント設定（環境に応じて必要なら有効化してください）
+% \setmainjfont{Noto Serif CJK JP}
+% \setsansjfont{Noto Sans CJK JP}
+
+% 数学パッケージ
+\usepackage{amsmath,amssymb,amsthm}
+
+% 図表
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% 画像パス（必要に応じて変更）
+\graphicspath{{../figures/}}
+
+% タイトル情報（適宜書き換えてください）
+\title[修士論文発表タイトル（略称）]{修士論文発表タイトル（正式版）}
+\author[氏名]{氏名}
+\institute[所属略称]{所属（研究科・専攻・研究室など）}
+\date[202X年X月X日]{202X年X月X日 修士論文発表}
+
+\begin{document}
+
+% タイトルスライド
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% 目次（必要に応じて）
+\begin{frame}{発表の構成}
+  \tableofcontents
+\end{frame}
+
+%----------------------------------------
+\section{研究の背景と目的}
+%----------------------------------------
+
+\begin{frame}{研究の背景}
+  \begin{itemize}
+    \item 本研究が対象とする問題領域の概要
+    \item なぜこの問題が重要なのか（応用先・理論的意義など）
+    \item 現状の課題（何がうまくいっていないか）
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{本研究の目的}
+  \begin{itemize}
+    \item 解決したい具体的な課題
+    \item 本研究で目指すゴール
+    \item ゴールを達成するための基本的なアプローチ
+  \end{itemize}
+\end{frame}
+
+%----------------------------------------
+\section{関連研究と位置づけ}
+%----------------------------------------
+
+\begin{frame}{関連研究の概要}
+  \begin{itemize}
+    \item 代表的な既存手法 A
+    \item 代表的な既存手法 B
+    \item それぞれの長所・短所
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{本研究の位置づけ}
+  \begin{itemize}
+    \item 既存研究と比較したときの本研究の立ち位置
+    \item 本研究が埋めようとしているギャップ
+    \item 想定する利用場面・貢献のイメージ
+  \end{itemize}
+\end{frame}
+
+%----------------------------------------
+\section{提案手法 / 理論的結果}
+%----------------------------------------
+
+\begin{frame}{問題設定}
+  \begin{itemize}
+    \item 扱う対象（データ、空間、確率分布など）
+    \item 変数や記号の定義（必要最小限）
+    \item 最終的に求めたいもの
+  \end{itemize}
+  % 数式の例（実際の内容に合わせて書き換えてください）
+  \[
+    \min_{x \in \mathbb{R}^n} f(x)
+  \]
+\end{frame}
+
+\begin{frame}{提案手法の概要}
+  \begin{itemize}
+    \item 提案手法のアイデア（直感的な説明）
+    \item 手法の流れ（アルゴリズムのステップなど）
+    \item 既存手法との違い・改良点
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{主な理論的結果}
+  \begin{itemize}
+    \item 主要な定理または命題
+    \item その定理が保証する性質（収束性、バイアスの減少など）
+    \item 証明のアイデア（詳細は論文参照）
+  \end{itemize}
+  % theorem 環境を使う場合（フォントサイズに注意）
+  % \begin{theorem}
+  %   ここに主要な結果を記述する。
+  % \end{theorem}
+\end{frame}
+
+%----------------------------------------
+\section{実験設定と結果}
+%----------------------------------------
+
+\begin{frame}{実験設定}
+  \begin{itemize}
+    \item 使用したデータセットやシミュレーション条件
+    \item 比較対象とした既存手法
+    \item 評価指標と実験の目的
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{実験結果の例}
+  \begin{itemize}
+    \item 代表的な図・表の説明（詳細は論文参照）
+    \item 提案手法が優れている点 / 劣っている点
+    \item 結果から得られる考察
+  \end{itemize}
+
+  % 図の例（実際のファイル名に置き換えてください）
+  % \begin{figure}
+  %   \centering
+  %   \includegraphics[width=0.7\linewidth]{example-figure}
+  %   \caption{実験結果の一例}
+  % \end{figure}
+\end{frame}
+
+%----------------------------------------
+\section{まとめと今後の課題}
+%----------------------------------------
+
+\begin{frame}{本研究のまとめ}
+  \begin{itemize}
+    \item 本研究で扱った問題と目的
+    \item 提案手法／結果の要約
+    \item 本研究の貢献（理論・応用の両面）
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{今後の課題}
+  \begin{itemize}
+    \item 本研究の限界（前提条件、スケーラビリティなど）
+    \item 今後検討したい拡張・改善案
+    \item 将来的な応用の可能性
+  \end{itemize}
+\end{frame}
+
+%----------------------------------------
+\section*{謝辞}
+%----------------------------------------
+
+\begin{frame}{謝辞}
+  \begin{itemize}
+    \item 指導教員・共同研究者への謝意
+    \item データ提供・助成金などへの謝意
+  \end{itemize}
+\end{frame}
+
+%----------------------------------------
+\section*{質疑応答}
+%----------------------------------------
+
+\begin{frame}{ご清聴ありがとうございました}
+  \centering
+  ご清聴ありがとうございました。\\
+  ご質問をお受けします。
+\end{frame}
+
+% 付録スライド（必要に応じて追加）
+% \appendix
+% \section*{付録}
+% \begin{frame}{補足スライドの例}
+%   \begin{itemize}
+%     \item 詳細な実験結果
+%     \item 追加の理論的結果
+%   \end{itemize}
+% \end{frame}
+
+\end{document}

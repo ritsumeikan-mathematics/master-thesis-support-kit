@@ -2,6 +2,16 @@
 
 本ディレクトリでは、修士論文執筆における LaTeX の導入から実践的な利用方法までを解説します。LaTeX は高品質な数式組版を可能にする標準的なツールですが、環境構築や特有の記法に慣れが必要です。
 
+## コンテンツ一覧
+
+- 基本ガイド
+  - `latex-guide/README.md`（このページ）
+- 修士論文執筆向け
+  - （今後追加予定）
+- 発表スライド作成向け
+  - [`beamer-presentation-from-thesis.md`](./beamer-presentation-from-thesis.md): 修士論文の内容をもとに、LaTeX Beamer で 20 分発表用スライドを作成するためのガイド
+  - `samples/beamer-thesis-presentation.tex`: 研究発表用の最小限の Beamer テンプレート
+
 ## 1. LaTeX とは
 LaTeX（ラテフ / レイテック）は、論理構造に基づいた文書作成を行うための組版システムです。
 - **数式の美しさ**: 数学・理系分野において世界標準の品質で数式を記述できます。
