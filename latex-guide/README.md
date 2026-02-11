@@ -9,8 +9,8 @@
 - 修士論文執筆向け
   - （今後追加予定）
 - 発表スライド作成向け
-  - [`beamer-presentation-from-thesis.md`](./beamer-presentation-from-thesis.md): 修士論文の内容をもとに、LaTeX Beamer で 20 分発表用スライドを作成するためのガイド
-  - `samples/beamer-thesis-presentation.tex`: 研究発表用の最小限の Beamer テンプレート
+  - [beamer-presentation-from-thesis.md](./beamer-presentation-from-thesis.md): 修士論文の内容をもとに、LaTeX Beamer で 20 分発表用スライドを作成するためのガイド
+  - [beamer-thesis-presentation.tex](./samples/beamer-thesis-presentation.tex])`: 研究発表用の最小限の Beamer テンプレート
 
 ## 1. LaTeX とは
 LaTeX（ラテフ / レイテック）は、論理構造に基づいた文書作成を行うための組版システムです。

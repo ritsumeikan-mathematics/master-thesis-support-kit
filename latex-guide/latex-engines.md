@@ -36,3 +36,5 @@
 [次ステップ]
 - [ローカル環境の構築手順 (Windows/macOS)](./setup-local.md)
 - [クラウド実行環境の利用と比較](./cloud-services.md)
+- [修士論文から発表スライドを作る（LaTeX Beamer）](./beamer-presentation-from-thesis.md)
+

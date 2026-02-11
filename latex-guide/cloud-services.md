@@ -38,4 +38,5 @@
 ---
 [参考]
 - [実践的なサンプルコード集](./samples/README.md)
+- [修士論文から発表スライドを作る（LaTeX Beamer）](./beamer-presentation-from-thesis.md)
 - [Git/GitHub によるバージョン管理の概要（オプション）](./github-integration.md)

@@ -6,6 +6,8 @@
 - **[minimal_math.tex](./minimal_math.tex)**: 
     - **用途**: LuaLaTeX の動作確認、数学系論文の最小構成。
     - **特徴**: 日本語対応 (`ltjsarticle`)、数式 (`amsmath`)、定理環境、図の挿入例を含む。
+- **[beamer-thesis-presentation.tex](./beamer-thesis-presentation.tex)**: 
+    - **用途**: 発表用
 
 ## 使い方
 1. 各ファイルをローカルまたはクラウド環境にコピー＆ペーストしてください。

@@ -31,6 +31,8 @@
 - **エンジン選択**: LuaLaTeX をベースとした現代的な日本語環境の推奨
 - **環境構築**: Windows/macOS でのローカル構築および最新クラウド環境（Prism, CloudLaTeX等）の比較
 - **実践サンプル**: すぐに使える数学論文用最小テンプレート
+- **発表スライド**: 修士論文の内容から Beamer で 20 分発表用スライドを作成するためのガイドとサンプル（[beamer-presentation-from-thesis.md](./latex-guide/beamer-presentation-from-thesis.md), [beamer-thesis-presentation.tex](./latex-guide/samples/beamer-thesis-presentation.tex)）
+
 
 ## 今後の拡張予定
 
