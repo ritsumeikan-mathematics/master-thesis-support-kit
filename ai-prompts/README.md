@@ -3,6 +3,7 @@
 本フォルダには、修士課程の学生が自力で修士論文を完遂するための、AI活用プロンプト一式が格納されています。
 
 ## コンセプト
+
 - **Self-Authored First**: AIによる代筆を厳禁とし、学生自らの執筆を補助することに特化しています。
 - **Academic Integrity**: 学術的誠実性を維持し、論理的思考を深めるための「問いかけ」や「検証」を中心としています。
 
@@ -14,13 +15,18 @@
 | [01_master_thesis_base_system_prompt.md](01_master_thesis_base_system_prompt.md) | **必須**: セッション開始時に最初に入力する基本原則プロンプト。 |
 | [02_master_thesis_analysis_templates.md](02_master_thesis_analysis_templates.md) | 内容の検討（論理検証、補足案、参考文献）に使用するテンプレート集。 |
 | [03_master_thesis_latex_conversion.md](03_master_thesis_latex_conversion.md) | 数式画像や箇条書きをLaTeX形式へ変換するためのテンプレート。 |
-| [04_visualize_comparison.md](04_visualize_comparison.md) | 実験結果（モデル比較・精度評価）を効果的に可視化するための相談テンプレート。 |
+| [04_master_thesis_visualize_comparison.md](04_master_thesis_visualize_comparison.md) | 実験結果（モデル比較・精度評価）を効果的に可視化するための相談テンプレート。 |
 
 ## 基本的な使い方
+
 1. **ガイドラインの確認**: 作業を始める前に、必ず `00_...` を読み、AIとの適切な距離感を確認してください。
 2. **初期設定**: 新しいチャットセッションを開始したら、まず `01_...` の内容をコピー＆ペーストしてAIに読み込ませてください。
 3. **テンプレートの利用**: 相談したい内容に合わせて `02_...` 以降から適切なテンプレートをコピーし、`[ ]` で囲まれたプレースホルダー部分を自分の文章に書き換えて送信してください。
 
 ## 注意事項
+
+- プロンプトはMarkdown形式を基本としています。これはテキストデータですのでそのままコピーして利用できます。
+  - ただし、ブラウザでGitHubのページを表示している場合、自動的に整形された表示がされてしまいます。元のテキストデータを表示したい場合は、右側にある「Raw」を選択してください。![Rawの場所説明](./github_view_raw.png)
+  - 例えば、`01_...` のテキストデータは[ここ](https://raw.githubusercontent.com/ritsumeikan-mathematics/master-thesis-support-kit/refs/heads/main/ai-prompts/01_master_thesis_base_system_prompt.md)から表示されます。
 - AIの回答には誤りが含まれる可能性があります。特に参考文献の存否や数式の正確性は、必ず一次情報で確認してください。
 - 最終的な文章の責任はすべて執筆者（学生）に帰属します。
